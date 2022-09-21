@@ -45,7 +45,7 @@ void mousePressed() {
   stroke(boltColor);
   boltX = mouseX;
   boltY = mouseY;
-  boltR = 0;
+  boltR = (float)Math.random();
   rad = dist(mouseX, mouseY, width/2, height/2);
   lightening = true;
 }
